@@ -1,0 +1,91 @@
+*{
+    padding :0;
+    margin : 0;
+}
+html{
+    font-size : 14px;
+}
+body{
+    background: #EDEEF0; /*d2d2d2*/
+}
+.content{
+    width: 85%;
+    margin-right : auto;
+    margin-left : auto;
+}
+.header{
+    height: 250px;
+}
+.box{
+    padding: 4px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 1px -1px rgba(0,0,0,.12);
+    margin-bottom: 17px;
+    border : 1px solid #f0f0f0;
+}
+.headbox{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: -4px;
+    margin-top: -4px;
+    margin-left: -4px;
+    background: #fafafa;
+    color: #333;
+    border-bottom: 1px solid #d0d1d5;
+    margin-bottom: 5px;
+}
+.stages{
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+.stages tr td{
+    padding: 5px;
+    
+}
+.headof td{
+    background: #f5f5f5;
+    border-top : 1px solid #d0d1d5;
+    border-bottom : 1px solid #d0d1d5;
+}
+
+
+
+.bodyof td{
+    border-bottom : 1px solid #d0d1d5;
+}
+.stages tr:last-child{
+    border-bottom : 0;
+}
+.navbar {
+  height: 100px;
+  text-align: center;
+  border: #a0a0a0 solid 1px;
+}
+.navbar:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+
+  /* For visualization 
+  background: #808080; width: 5px;
+  */
+}
+
+.centered {
+    color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+
+  /*padding: 10px 15px;*/
+}
+footer{
+    background-color: #15224f;
+    font-size: 18px;
+    padding: 15px;
+    color: #fff;
+    
+}
